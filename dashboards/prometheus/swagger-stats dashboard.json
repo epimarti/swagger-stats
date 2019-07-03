@@ -422,7 +422,7 @@
           "tableColumn": "",
           "targets": [
             {
-              "expr": "nodejs_process_cpu_usage_percentage",
+              "expr": "api_nodejs_process_cpu_usage_percentage",
               "format": "time_series",
               "intervalFactor": 2,
               "refId": "A",
@@ -499,7 +499,7 @@
           "tableColumn": "",
           "targets": [
             {
-              "expr": "(nodejs_process_memory_heap_used_bytes)/1048576",
+              "expr": "(api_nodejs_process_memory_heap_used_bytes)/1048576",
               "format": "time_series",
               "intervalFactor": 2,
               "refId": "A",
